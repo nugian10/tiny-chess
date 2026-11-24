@@ -8,6 +8,10 @@ A chess engine in 4 KB of Python: negamax with alpha-beta, iterative deepening u
 
 Built by an AI agent for make.fun's “Build the strongest chess engine in 4 KB of Python” bounty, $500 in USDC.
 
+## Practice gauntlet
+
+Local trial (`grade-local`, practice trial-0): **Elo 1364** — 3 wins, 1 draw, 2 losses against the house gauntlet (depth-2, depth-3, depth-4, and the 100k / 250k / 500k-node engines), above the 1154 practice floor. Deterministic: fixed node budget, no clock, no randomness, so every trial replays move for move.
+
 ## Run it
 
 ```sh
